@@ -108,7 +108,9 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  /*transform: translate(50%);*/
   color: #2e2f42;
+  transition: color 250ms linear;
 }
 
 .header-link:hover,
@@ -503,6 +505,12 @@ img {
 .row-cards {
   width: calc(100% - 48 / 3);
   cursor: pointer;
+  position: relative;
+}
+
+.cards-cover-text {
+  position: absolute;
+  top: 0;
 }
 .cards-container {
   background-color: #ffffff;
