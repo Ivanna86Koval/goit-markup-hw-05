@@ -66,10 +66,10 @@
     <main>
       <section class="hero">
         <div class="container">
-          <h1 class="hero-top-title animate__animated animate__bounce">
-            Effective Solutions for Your Business
-          </h1>
-          <button class="modal-btn" type="button">Order Service</button>
+          <h1 class="hero-top-title">Effective Solutions for Your Business</h1>
+          <button class="modal-btn" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -456,12 +456,15 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
-      <div class="modal"></div>
+    <div class="backdrop" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close>X</button>
+      </div>
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
