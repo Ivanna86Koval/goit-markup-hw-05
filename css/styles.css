@@ -118,6 +118,12 @@ img {
   color: #404bbf;
 }
 
+.current::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 .contact-list {
   display: flex;
   gap: 40px;
