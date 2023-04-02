@@ -530,17 +530,16 @@ img {
   width: calc(100% - 48 / 3);
   cursor: pointer;
 }
+
+.row-cards-link:hover,
+.row-cards-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .row-cards:hover .cards-cover-text {
   transform: translateY(0%);
   transition: transform 300ms linear;
-}
-
-.row-cards:hover .row-cards:focus {
-  background: #ffffff;
-  border: 1px solid #f4f4fd;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition: transform 2500ms cubic-bezier(0.4, 0, 0.2, 1), linear;
 }
 
 .cards-top-wrap {
